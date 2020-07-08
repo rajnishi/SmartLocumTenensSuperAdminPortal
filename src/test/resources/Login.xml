@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parallel test suite" parallel="classes" thread-count="1">
+    <test name="Smart Locum Tenens - Node - 1">
+
+        <classes>
+
+            <class name="TS.PostJobTC"></class>
+            <!--        <class name="LoginTestCases.RegisterHealthcareProfTC">
+
+
+                    </class>-->
+
+        </classes>
+    </test>
+</suite>
