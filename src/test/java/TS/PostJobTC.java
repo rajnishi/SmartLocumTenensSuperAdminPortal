@@ -179,7 +179,7 @@ public class PostJobTC extends BaseTest {
         ExtentTestManager.getTest().log(LogStatus.PASS, "Click on drop down button and select state license requirements option ", "User able to click drop down button and able to select from state license requirements option");
 
         ((JavascriptExecutor) driver).executeScript("window.scrollBy(0,1000)");
-
+        Thread.sleep(2000);
         //Willing to License for Position*
         Assert.assertTrue(postJobPOObj.clickOnLinkBtn(postJobPOObj.WillLicPosi_xpath), "Unable to select willing to license for position ");
         ExtentTestManager.getTest().log(LogStatus.PASS, "Select willing to license for position as Yes", "User able to select willing to license for position");

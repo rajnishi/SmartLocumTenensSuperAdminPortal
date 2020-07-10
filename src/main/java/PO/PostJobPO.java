@@ -54,7 +54,7 @@ public class PostJobPO extends BasePage {
     public By Start1MonYrDt_xpath = By.xpath("//button[@aria-label= 'Choose month and year']");
     public By Start1Yr_xpath = By.xpath("//td[@aria-label= '2020']");
     public By Start1Month_xpath = By.xpath("//div[contains(text(),' JULY ')]");
-    public By Start1Day_xpath = By.xpath("//td[@aria-label = 'July 15, 2020']");
+    public By Start1Day_xpath = By.xpath("//td[@aria-label = 'July 9, 2020']");
 
     public By NoEndDate1_xpath = By.xpath("//mat-checkbox[@name = 'IsEndDate']");
 

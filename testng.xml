@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/IntelliJ-Files/SmartLocumTenensSuperAdminPortal">
+        <classes>
+            <class name="TS.PostJobTC">
+                <methods>
+                    <include name="verifyPostJobTCSLT"/>
+                </methods>
+            </class>
+            <class name="TS.ProfilePageTC">
+                <methods>
+                    <include name="verifyProfilePageSLT"/>
+                </methods>
+            </class>
+            <class name="TS.SuperAdminLoginTC">
+                <methods>
+                    <include name="verifySuperAdminLoginSLT"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

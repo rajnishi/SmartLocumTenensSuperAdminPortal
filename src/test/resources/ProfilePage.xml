@@ -4,6 +4,8 @@
 
         <classes>
 
+            <class name="TS.ProfilePageTC"></class>
+            <class name="TS.SuperAdminLoginTC"></class>
             <class name="TS.PostJobTC"></class>
             <!--        <class name="LoginTestCases.RegisterHealthcareProfTC">
 
