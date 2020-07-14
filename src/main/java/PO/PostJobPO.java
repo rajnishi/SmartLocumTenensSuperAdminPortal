@@ -54,7 +54,7 @@ public class PostJobPO extends BasePage {
     public By Start1MonYrDt_xpath = By.xpath("//button[@aria-label= 'Choose month and year']");
     public By Start1Yr_xpath = By.xpath("//td[@aria-label= '2020']");
     public By Start1Month_xpath = By.xpath("//div[contains(text(),' JULY ')]");
-    public By Start1Day_xpath = By.xpath("//td[@aria-label = 'July 9, 2020']");
+    public By Start1Day_xpath = By.xpath("//td[@aria-label = 'July 20, 2020']");//chg date
 
     public By NoEndDate1_xpath = By.xpath("//mat-checkbox[@name = 'IsEndDate']");
 
@@ -62,7 +62,7 @@ public class PostJobPO extends BasePage {
     public By EndDtMonYrDt1_xpath = By.xpath("//button[@aria-label= 'Choose month and year']");
     public By EndDtyr1_xpath = By.xpath("//td[@aria-label='2020']");
     public By EndDtMonth1_xpath = By.xpath("//div[contains(text(),' JULY ')]");
-    public By EndDayDt1_xpath = By.xpath("//td[@aria-label = 'July 30, 2020']");
+    public By EndDayDt1_xpath = By.xpath("//td[@aria-label = 'July 30, 2020']");// chg date
 
     public By AddDts_xpath = By.xpath("//span[text()=' Add Dates ']");
 

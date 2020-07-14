@@ -24,7 +24,7 @@ public class BasePage {
 
     public boolean clickOnLinkBtn(By by) {
         try {
-            WebElement webElementObj = (new WebDriverWait(driver, 90))
+            WebElement webElementObj = (new WebDriverWait(driver, 120))
                     .until(ExpectedConditions.visibilityOfElementLocated(by));
             webElementObj.click();
             return true;
@@ -119,11 +119,11 @@ public class BasePage {
             //  webElementObj2.click();
             JavascriptExecutor jse2 = ((JavascriptExecutor) driver);
             jse.executeScript("arguments[0].click();", webElementObj2);
-
+            Thread.sleep(3000);
             Robot r = new Robot();
             r.keyPress(KeyEvent.VK_ESCAPE);
             r.keyRelease(KeyEvent.VK_ESCAPE);
-            Thread.sleep(2000);
+
             return true;
         } catch (AWTException | InterruptedException ex) {
             ex.printStackTrace();
